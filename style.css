@@ -1,0 +1,25 @@
+.btn-success:hover{
+background-color: red;
+}
+h2{
+    font-size: 25px !important;
+}
+
+canvas{
+    animation-name:shadow;
+    animation-duration: 4s;
+    animation-iteration-count:infinite;
+}
+
+@keyframes shadow{
+    from{
+        box-shadow: 6px 6px 60px lawngreen;
+        border-radius: 20%;
+        border:2px ridge rebeccapurple;
+    }
+    to{
+        box-shadow: 6px 6px 40px rgb(35, 166, 247);
+        border-radius: 2%;
+        border:7px dotted plum;
+    }
+}
